@@ -7,21 +7,47 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-header {
+  background-image: url('https://s3-alpha-sig.figma.com/img/91de/1205/d9a9adebacf86498af9f74fcfbf11dab?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e0jsZMHn-YXoF1RMJHWUM75pnbTEt5CrUPCrqWNAzZbZVRYeCCBkM3GjhsduINWskRVU4w1BASivTjfAa4dJdlVKoE9nCC6LavP9z5IOyNKSL2TFn0yqQY2M412AfE4kSRp2TVpUwp3jt9ZJXZFKp8xXxR5N9W~CoTSF15UY-mcE5Jd7olIhBjz83VTLpc8G6446tgRrwDxIHGCGQIAbUqjT5sfKckoGjN3EHnEGAPJoLP9GHNKmG4edjeTagjCZ5AiFmIbUt6xyK69QBXK2bAgwUfTiWNyc3dDgri0QUNj5ZKpBEnVU-wHDu4OnKLUKiP9yMvlK1rdpz0JWctbhRw__');
+  min-height: 100vh;
+  color: white;
+  background-size: cover;
+  padding: 0px 100px 0px 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-header h6 {
+  font-weight: 700;
+  text-align: left;
+  font-size: 40px;
+}
+
+.App-header p {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.App-menu {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+
+.App-menu a {
   color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.App-menu button {
+  background-color: #106A64;
+  color: white;
+  border: none;
+  padding: 5px 20px 5px 20px;
+}
+
+.App-menu img {
+  text-align: left;
 }
 
 .App-link {
